@@ -21,8 +21,14 @@ a {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 16px 128px;
+}
+
+.logoContainer {
+  flex-grow: 1;
+  display: inherit;
+  justify-content: center;
 }
 
 .desktopNavigation {
@@ -35,6 +41,7 @@ header {
   height: 100%;
   line-height: 2;
   transition: font-weight 200ms;
+  text-decoration: none;
 }
 
 .desktopNavigation a:hover {
