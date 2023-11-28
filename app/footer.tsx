@@ -24,7 +24,7 @@ export function Footer() {
         <div>
           <h2>Stay tuned</h2>
           <p>
-            Наше развитие, истории, отчеты,
+            Развитие фонда, истории, отчеты,
             апдейты, анонсы, ивенты, обсуждения:
           </p>
           <a href="https://t.me/n_andrusov">

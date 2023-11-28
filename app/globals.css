@@ -11,6 +11,7 @@
 
 body {
   min-height: 100vh;
+  margin: 0;
 }
 
 a {
@@ -21,7 +22,7 @@ a {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 16px 128px 0 128px;
+  padding: 16px 128px;
 }
 
 .desktopNavigation {
@@ -71,4 +72,23 @@ footer .footerFundBlock {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+
+button {
+  border-radius: 1024px;
+  background-color: #00000000; /* transparent */
+  border: 3px solid white;
+  color: inherit;
+  padding: 16px;
+  font-size: 24px;
+}
+
+button:hover {
+  background-color: #ffffff;
+  color: #00000088;
+  transition: background-color 200ms, color 200ms;
+}
+
+button a {
+  text-decoration: none;
 }

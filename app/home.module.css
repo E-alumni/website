@@ -1,0 +1,40 @@
+.main {
+  margin-top: 0;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 256px;
+  color: white;
+  background-color: #d0c4b8;
+  background: radial-gradient(
+    circle at 35%,
+    #6b7d86,
+    #d0c4b8
+  );
+}
+
+.main * {
+  max-width: 400px;
+}
+
+.main p {
+  margin: 0;
+  font-weight: 700;
+}
+
+.title1 {
+  font-size: 100px;
+}
+
+.title2 {
+  font-size: 64px;
+  line-height: 1.8;
+}
+
+.mainButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
