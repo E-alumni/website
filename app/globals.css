@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url(./Montserrat-VariableFont_wght.ttf)
+      format("truetype");
+}
+
+* {
+  font-family: Montserrat;
+}
+
+body {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  height: fit-content;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 128px 0 128px;
+}
+
+.desktopNavigation {
+  display: flex;
+}
+
+.desktopNavigation a {
+  opacity: 0.5;
+  padding: 0 32px;
+  height: 100%;
+  line-height: 2;
+  transition: font-weight 200ms;
+}
+
+.desktopNavigation a:hover {
+  font-weight: bolder;
+  transition: font-weight 200ms;
+}
+
+.desktopNavigation .active {
+  opacity: 1;
+}
+
+footer {
+  background-color: #c6baae;
+  padding: 64px 128px 128px 128px;
+}
+
+footer .footerContacts {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #888888;
+  padding: 32px 0;
+}
+
+footer .footerInfoBlocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footerInfoBlocks div {
+  max-width: 400px;
+}
+
+footer .footerFundBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
